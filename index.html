@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>礼由</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="navbar" id="top" role="banner">
+		<div class="container">
+			<div class="navbar-header pull-left">
+				<a href="./index.html" class="navbar-brand">礼由</a>
+			</div>
+			<nav role="navigation">
+				<ul class="nav navbar-nav navbar-right pull-right">
+					<li><a class="login" href="#">登录</a></li>
+					<li class="mr-one"><a href="#">注册</a></li>
+					<li class="mr-one"><a href="#"><span class="glyphicon glyphicon-heart"></span>心水单</a></li>
+					<li class="hidden-xs"><a href="#">联系我们</a></li>
+					<li class="hidden-xs"><a href="#">帮助中心</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<div id="fakeTop"></div>
+
+	<div class="container" id="main">
+		<div class="row header">
+			<div class="col-md-7 ptb-one clearfix" id="title">
+				<!-- <img class="pull-left" src="images/logo.png" height="50" alt="logo"> -->
+				<h1 class="title pull-left">礼由</h1>
+			</div>
+			<div class="search col-md-5 ptb-one mt-12 clearfix">
+				<div class="col-lg-10 pull-right">
+					<div class="input-group col-sm-10">
+						<input type="text" class="form-control" placeholder="攻略、商品">
+						<span class="input-group-btn">
+							<button class="btn btn-primary" type="button">搜索</button>
+						</span>
+					</div>
+					<!-- /input-group -->
+				</div>
+				<!-- /.col-lg-6 -->
+			</div>	
+		</div>
+		<!-- /.row header -->
+
+		<div class="row content">
+			<div class="col-md-3 hidden-print hidden-xs hidden-sm" id="page-left">
+				<ul class="nav col-lg-11" id="menu">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="#">赠送对象</a>
+						<ul class="nav">
+							<li><a href="./classify.html">小说</a></li>
+							<li><a href="#">自己</a></li>
+							<li><a href="#">男票</a></li>
+							<li><a href="#">女票</a></li>
+							<li><a href="#">闺蜜</a></li>
+							<li><a href="#">基友</a></li>
+							<li><a href="#">父母</a></li>
+							<li><a href="#">同事</a></li>
+							<li><a href="#">小朋友</a></li>
+						</ul>
+					</li>
+					<li><a href="#">赠送场合</a>
+						<ul class="nav">
+							<li><a href="#">新年</a></li>
+							<li><a href="#">生日</a></li>
+							<li><a href="#">纪念日</a></li>
+							<li><a href="#">情人节</a></li>
+							<li><a href="#">结婚</a></li>
+							<li><a href="#">感谢</a></li>
+							<li><a href="#">乔迁</a></li>
+							<li><a href="#">情人节</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Ta的个性</a>
+						<ul class="nav">
+							<li><a href="#">美物</a></li>
+							<li><a href="#">手工</a></li>
+							<li><a href="#">萌物</a></li>
+							<li><a href="#">吃货</a></li>
+							<li><a href="#">动漫迷</a></li>
+							<li><a href="#">科技范</a></li>
+							<li><a href="#">小清新</a></li>
+						</ul>
+					</li>
+					<li><a href="#">价格区间</a>
+						<ul class="nav">
+							<li><a href="#">100以下</a></li>
+							<li><a href="#">100-300</a></li>
+							<li><a href="#">300-500</a></li>
+							<li><a href="#">500-1000</a></li>
+							<li><a href="#">不差钱</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#fakeTop" title="返回页面顶部"><span class="glyphicon glyphicon-arrow-up"></span> 返回顶部</a>
+					</li>
+				</ul>
+			</div>
+			<!-- /#page-left -->
+
+			<div class="col-md-9" id="page-right">
+				<div id="bulletin" class="carousel slide" data-ride="carousel" data-interval="4000">
+					<ol class="carousel-indicators">
+						<li data-target="#bulletin" data-slide-to="0" class="active"></li>
+						<li data-target="#bulletin" data-slide-to="1" class=""></li>
+						<li data-target="#bulletin" data-slide-to="2" class=""></li>
+						<li data-target="#bulletin" data-slide-to="3" class=""></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<a href="#"><img alt="First slide" src="images/shili1.PNG">
+								<div class="carousel-caption"><h5>夏日不做黑美人</h5></div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#"><img alt="First slide" src="images/shili2.PNG">
+								<div class="carousel-caption"><h5>一年四季都白搭的帆布包</h5></div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#"><img alt="First slide" src="images/shili3.PNG">
+								<div class="carousel-caption"><h5>海淘吃遍全世界</h5></div>
+							</a>
+						</div>
+						<div class="item">
+							<a href="#"><img alt="First slide" src="images/shili4.PNG">
+								<div class="carousel-caption"><h5>品味盘子的艺术感</h5></div>
+							</a>
+						</div>
+					</div>
+					<!-- /carousel-inner -->
+					<a class="left carousel-control" href="#bulletin" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#bulletin" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+				<!-- /.carousel -->
+
+				<div class="panel-home mt-two">
+					<div class="panel-heading title">攻略精选</div>
+					<div class="panel-body">
+						<div class="item col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<div class="thumbnail">
+								<a href="#" target="_blank"><img src="images/shili4.PNG" alt="#"></a>
+								<div class="caption">
+									<div class="strategy-title title">
+										美器比美食更动人：品味盘子的艺术感
+									</div>
+									<div class="strategy-content title">
+										美食固然很诱人，但是最让人没有抵抗力的还是那些美貌的盘子，因为它会让不好看的食物也变得...
+									</div>
+									<div class="strategy-content clearfix">
+										<img class="icon" src="images/like.png">
+										<span class="mr-one">12</span>
+										<img class="icon" src="images/comment.png">
+										<span class="mr-one">4</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /item -->
+						<div class="item col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<div class="thumbnail">
+								<a href="#" target="_blank"><img src="images/shili3.PNG" alt="#"></a>
+								<div class="caption">
+									<div class="strategy-title title">
+										韩国零食该更新了，海淘吃遍全世界
+									</div>
+									<div class="strategy-content title">
+										托韩国综艺和韩剧的福，爱追剧的粉丝们也多少都被安利了不少零食，看到偶像们手里拿的小...
+									</div>
+									<div class="strategy-content clearfix">
+										<img class="icon" src="images/like.png">
+										<span class="mr-one">12</span>
+										<img class="icon" src="images/comment.png">
+										<span class="mr-one">4</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /item -->
+						<div class="item col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<div class="thumbnail">
+								<a href="#" target="_blank"><img src="images/shili2.PNG" alt="#"></a>
+								<div class="caption">
+									<div class="strategy-title title">
+										穿搭心得：一年四季都百搭的帆布包
+									</div>
+									<div class="strategy-content title">
+										小礼君觉得帆布包包是最“强大”包包了，为什么说它是最“强大”的呢...
+									</div>
+									<div class="strategy-content clearfix">
+										<img class="icon" src="images/like.png">
+										<span class="mr-one">12</span>
+										<img class="icon" src="images/comment.png">
+										<span class="mr-one">4</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /item -->
+						
+						<div class="item col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<div class="thumbnail">
+								<a href="#" target="_blank"><img src="images/shili1.PNG" alt="#"></a>
+								<div class="caption">
+									<div class="strategy-title title">
+										防晒有道，夏日不做黑美人
+									</div>
+									<div class="strategy-content title">
+										最近一段快速的升温预示着夏天已经不远了，阳光明媚，正是出游的好季节。可是妹子们都...
+									</div>
+									<div class="strategy-content clearfix">
+										<img class="icon" src="images/like.png">
+										<span class="mr-one">12</span>
+										<img class="icon" src="images/comment.png">
+										<span class="mr-one">4</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /item -->
+
+						<div class="item col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<div class="thumbnail">
+								<a href="#" target="_blank"><img src="images/shili4.PNG" alt="#"></a>
+								<div class="caption">
+									<div class="strategy-title title">
+										美器比美食更动人：品味盘子的艺术感
+									</div>
+									<div class="strategy-content title">
+										美食固然很诱人，但是最让人没有抵抗力的还是那些美貌的盘子，因为它会让不好看的食物也变得...
+									</div>
+									<div class="strategy-content clearfix">
+										<img class="icon" src="images/like.png">
+										<span class="mr-one">12</span>
+										<img class="icon" src="images/comment.png">
+										<span class="mr-one">4</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /item -->
+						<div class="item col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<div class="thumbnail">
+								<a href="#" target="_blank"><img src="images/shili3.PNG" alt="#"></a>
+								<div class="caption">
+									<div class="strategy-title title">
+										韩国零食该更新了，海淘吃遍全世界
+									</div>
+									<div class="strategy-content title">
+										托韩国综艺和韩剧的福，爱追剧的粉丝们也多少都被安利了不少零食，看到偶像们手里拿的小...
+									</div>
+									<div class="strategy-content clearfix">
+										<img class="icon" src="images/like.png">
+										<span class="mr-one">12</span>
+										<img class="icon" src="images/comment.png">
+										<span class="mr-one">4</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /item -->
+						<div class="item col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<div class="thumbnail">
+								<a href="#" target="_blank"><img src="images/shili2.PNG" alt="#"></a>
+								<div class="caption">
+									<div class="strategy-title title">
+										穿搭心得：一年四季都百搭的帆布包
+									</div>
+									<div class="strategy-content title">
+										小礼君觉得帆布包包是最“强大”包包了，为什么说它是最“强大”的呢...
+									</div>
+									<div class="strategy-content clearfix">
+										<img class="icon" src="images/like.png">
+										<span class="mr-one">12</span>
+										<img class="icon" src="images/comment.png">
+										<span class="mr-one">4</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /item -->
+						
+						<div class="item col-xs-6 col-sm-4 col-md-4 col-lg-4">
+							<div class="thumbnail">
+								<a href="#" target="_blank"><img src="images/shili1.PNG" alt="#"></a>
+								<div class="caption">
+									<div class="strategy-title title">
+										防晒有道，夏日不做黑美人
+									</div>
+									<div class="strategy-content title">
+										最近一段快速的升温预示着夏天已经不远了，阳光明媚，正是出游的好季节。可是妹子们都...
+									</div>
+									<div class="strategy-content clearfix">
+										<img class="icon" src="images/like.png">
+										<span class="mr-one">12</span>
+										<img class="icon" src="images/comment.png">
+										<span class="mr-one">4</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- /item -->
+					</div>
+					<!-- /.panel-body -->
+				</div>
+				<!-- /.panel,攻略精选 -->
+				<div class="text-center loading">
+					<a href="#">加载更多</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="page-bottom clearfix">
+			<div class="copyright col-sm-12">
+				<p>Copyright © Unawill All Rights Reserved</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
